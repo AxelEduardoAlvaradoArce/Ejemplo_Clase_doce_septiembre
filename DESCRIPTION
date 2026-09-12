@@ -9,4 +9,5 @@ Imports:
     rmarkdown,
     reticulate,
     readr,
-    caret
+    caret,
+    leaflet
