@@ -4,5 +4,5 @@ polars
 matplotlib
 numpy
 statistics
-sklearn
+scikit-learn
 statsmodels
