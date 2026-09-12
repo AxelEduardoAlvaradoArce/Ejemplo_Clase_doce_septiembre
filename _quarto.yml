@@ -2,27 +2,33 @@ project:
   type: website
 
 website:
-  title: "El sitio de reportes de Axel"
-  navbar:
+  title: "El sitio de reportes de Axel 12/09/2026"
+  navbar:/
     left:
       - text: "Sobre este fabuloso sitio"
         href: index.qmd # Siempre tiene que tener un archivo index.qmd
   sidebar:
-    style: docked # Despliega las secciones en la barra lateral
+    style: docked
     contents:
-      - index.qmd # Opcional pero siempre es bueno ponerlo
-      - section: "Primer reporte chafa"
+      - index.qmd
+      - section: "Primer reporte"
         contents:
           - mis_reportes/reporte-01.qmd
-      - section: "Segundo reporte menos chafa"
+      - section: "Segundo reporte"
         contents:
           - mis_reportes/reporte-02.qmd
-      - section: "Último reporte, por fin lo logré"
+      - section: "Último reporte"
         contents:
           - mis_reportes/reporte-03.qmd
       - section: "Reporte con dos lenguajes"
         contents:
           - mis_reportes/reporte-04.qmd
+      - section: "Reporte pero en slides"
+        contents:
+          - mis_reportes/slides-01.qmd
+      - section: "Reporte en slides embebido en el sitio"
+        contents:
+          - mis_reportes/ver-slides-01.qmd
 
 format:
   html:
