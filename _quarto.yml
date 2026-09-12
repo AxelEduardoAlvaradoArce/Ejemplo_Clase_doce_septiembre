@@ -3,7 +3,7 @@ project:
 
 website:
   title: "El sitio de reportes de Axel 12/09/2026"
-  navbar:/
+  navbar:
     left:
       - text: "Sobre este fabuloso sitio"
         href: index.qmd # Siempre tiene que tener un archivo index.qmd
