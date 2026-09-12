@@ -6,3 +6,4 @@ numpy
 statistics
 scikit-learn
 statsmodels
+folium
