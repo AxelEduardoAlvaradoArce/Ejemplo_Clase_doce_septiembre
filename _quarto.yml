@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  title: "El sitio de reportes de Axel"
+  navbar:
+    left:
+      - text: "Sobre este fabuloso sitio"
+        href: index.qmd # Siempre tiene que tener un archivo index.qmd
+  sidebar:
+    style: docked # Despliega las secciones en la barra lateral
+    contents:
+      - index.qmd # Opcional pero siempre es bueno ponerlo
+      - section: "Primer reporte chafa"
+        contents:
+          - mis_reportes/reporte-01.qmd
+      - section: "Segundo reporte menos chafa"
+        contents:
+          - mis_reportes/reporte-02.qmd
+      - section: "Último reporte, por fin lo logré"
+        contents:
+          - mis_reportes/reporte-03.qmd
+      - section: "Reporte con dos lenguajes"
+        contents:
+          - mis_reportes/reporte-04.qmd
+
+format:
+  html:
+    theme: darkly # Este es el nuevo tema que me gusto
+    toc: true
+    lang: es
