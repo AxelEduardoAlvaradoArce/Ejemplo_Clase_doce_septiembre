@@ -2,3 +2,13 @@ jupyter
 pandas
 polars
 matplotlib
+numpy
+statistics
+jupyter
+pandas
+polars
+matplotlib
+numpy
+statistics
+sklearn
+statsmodels
