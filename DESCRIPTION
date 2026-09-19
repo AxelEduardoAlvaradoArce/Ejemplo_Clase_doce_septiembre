@@ -11,3 +11,15 @@ Imports:
     readr,
     caret,
     leaflet
+    gghighlight,
+    palmerpenguins,
+    highcharter,
+    forecast,
+    ggalluvial,
+    geomtextpath,
+    gapminder,
+    gganimate,
+    gifski,
+    transformr,
+    kableExtra,
+    plotly
