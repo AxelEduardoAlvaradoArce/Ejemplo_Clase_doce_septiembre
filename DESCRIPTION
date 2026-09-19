@@ -10,7 +10,7 @@ Imports:
     reticulate,
     readr,
     caret,
-    leaflet
+    leaflet,
     gghighlight,
     palmerpenguins,
     highcharter,
